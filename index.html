@@ -1,8 +1,19 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" href="styles.css">
-		<script type="module" src="script.js"></script>
-	</head>
-	<body>dsfsdfsdf</body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple To-Do App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>To-Do List</h1>
+    <input type="text" id="todo-input" placeholder="할 일을 입력하세요" />
+    <button onclick="addTodo()">추가</button>
+    <ul id="todo-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
